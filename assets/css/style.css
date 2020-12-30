@@ -327,24 +327,37 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
+.wrapper-img {
+position: relative;
+
+}
+
+.wrapper-img > img{
+
+
+}
+
 #hero {
   width: 100%;
   height: 60vh;
-  background: url("../img/mainbg1.jpg") center center;
+ /* background: url("../img/mainbg1.jpg") center center; */
   background-size: cover;
   position: relative;
   margin-top: 70px;
   padding: 0;
+  background-color: #ECF3FF;
 }
 
 #hero:before {
   content: "";
-  background: rgba(56, 64, 70, 0.7);
+  background: #ECF3FF;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
-  right: 0;
+  right:45%;
 }
 
 #hero .container {
@@ -356,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #444444;
 }
 
 #hero h1 span {
@@ -364,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #444444;
   margin-bottom: 30px;
   font-size: 24px;
 }
@@ -413,7 +426,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f7fbfe;
+  background-color: #ECF3FF;
 }
 
 .section-title {
@@ -469,7 +482,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #eaf4fb;
+  /** background: #eaf4fb; **/
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -1254,7 +1267,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #f7fbfe;
+  background: #ECF3FF;
 }
 
 #footer .footer-top {
