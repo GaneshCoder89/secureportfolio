@@ -1,0 +1,5 @@
+<svg  xmlns="http://www.w3.org/2000/svg"  width="250" height="250">
+  <circle cx="125" cy="125" r="100" fill="#ECF3FF" />
+  <text x="50%" y="50%" text-anchor="middle" fill="#444444" font-size="70px" font-family="Arial" dy=".3em">1000+</text>
+    <text x="50%" y="70%" text-anchor="middle" fill="#444444" font-size="20px" font-family="Arial" dy=".3em">Active users</text>
+</svg>
